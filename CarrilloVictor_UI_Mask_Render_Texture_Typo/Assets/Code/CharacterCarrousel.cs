@@ -6,7 +6,7 @@ public class CharacterCarrousel : MonoBehaviour
     private RectTransform rectTransform;
     [SerializeField] private PressHoldButton holdButton;
     [SerializeField] private float moveSpeed = 200f;
-    private const float MAX_WIDTH_TRANSTITION = -136f;
+    private const float MAX_WIDTH_TRANSTITION = -134f;
 
     private void Awake()
     {
